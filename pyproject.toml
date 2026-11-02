@@ -1,0 +1,24 @@
+[project]
+name = "simple-counter"
+description = "A simple counter app with increment and decrement controls."
+version = "0.1.0"
+requires-python = ">=3.12"
+authors = [{name = "FeodorFitsner-PRO", email = "gh-pro@appveyor.com"}]
+dependencies = [
+    "flet",
+]
+
+[tool.flet]
+company = "FeodorFitsner-PRO"
+copyright = "Copyright (C) 2026 by FeodorFitsner-PRO"
+
+[tool.flet.metadata]
+title = "Simple Counter"
+description = "A simple counter app with increment and decrement controls."
+
+product = "Simple Counter"
+
+[tool.flet.web]
+prerelease = true
+[tool.flet.android]
+bundle_id = "com.flet.simple_flet_app"
