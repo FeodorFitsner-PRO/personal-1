@@ -2,7 +2,7 @@ import flet as ft
 
 
 async def main(page: ft.Page):
-    page.theme_mode = ft.ThemeMode.LIGHT
+    page.theme_mode = ft.ThemeMode.DARK
     count = 0
 
     counter_text = ft.Text(
